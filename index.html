@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Garentie Satisfait Ou Remboursé" >
+    <title>Page d'acceuil</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+ 	<link rel="icon" type="imgV/png" href="imgV/logo.png">
+    <script type="text/javascript" src="js/script.js" defer> </script>
+    
+</head>
+<body>
+    <div classe="header">
+        <img src="imgV/img6.png" height="400px" width="100%"/>
+        
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <ul>
+                <li><a class="active" href="index.html">Accueil</a></li>
+ 				<li><a href="html/produit.html">Produits</a></li>
+                 <li> <a href="html/promotion.html"class="promo-lien">Promotion</a></li>
+                <li><a href="back/login.php">Login </a></li>
+                <li><a href="back/register.php">Register </a></li>
+
+            </ul>
+        </div>
+
+        <div class="logo">
+            <img src="imgV/logo.png" width="150px">
+        </div>
+        
+       
+    </div>
+    <div class="text">
+        
+            <h1 class="text1">Tous en VELO</h1>
+            <h2 class="text2">Une Boutique pour tous les Passionnés</h2>
+        
+    </div>
+       <!-- Slider -->
+ 		<div class="slidercontainer">
+            <div class="showSlide">
+                <img src="imgV/img5.png" height="500px" />
+            </div>
+            <div class="showSlide">
+                <img src="imgV/img4.png" height="500px" />
+            </div>
+    
+            <div class="showSlide">
+                <img src="imgV/img7.png" height="500px" />
+            </div>
+                <!-- button suivant et precedent -->
+            <a class="prev" onclick="nextSlide(-1)">❮</a>
+            <a class="next" onclick="nextSlide(1)">❯</a>
+    
+                <!-- cercle -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>        
+        
+        </div>
+
+    <div class="textt">
+        <h3>Pour les sportifs et ammateurs</h3>
+        <p>le vélo est indemodable ,nous sommes de plus en plus nombreux a pratiquer le VTT,<br>le velo de route ou le BMX pour garder la forme tout en prenant du plaisir<br>Pour les citadins,le vélo est considéré comme une alternative économique <br>et écologique a la voiture et aux transports en commun.Vous cherchez un vélo <br> adapté a votre taille ou a votre enfants? Vous cherchez un casque ?<br>Besoins d'accesoires pour votre sortie vélo? <br>Chez nous vous trouverez tous ce dont vous avez besoins.</p>
+    </div>
+ <!--footer-->
+ <footer class="pieds-page">
+    <div class="footer-gauche">
+       <h3>Tout en <span>Velo</span></h3>
+        <p class="f-liens">
+           <a href="html/produit.html">Produits </a> ·
+           <a href="html/promotion.html">Promotion </a> ·
+           <a href="back/login.php">Se connecter </a> ·
+           <a href="back/register.php">S'inscrire</a> 
+        </p>
+        <p class="company-name">Copyrights @2020</p>
+        <div class="f-icons">
+            <a href="https://facebook.com/" target="_blank"><img img width="30px" src="imgV/fb.png" alt="Lien vers Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img img width="30px" src="imgV/twitter.png" alt="Lien vers Twitter" ></a>
+            <a href="https://intagram.com" target="_blank"><img img width="30px" src="imgV/instagram.png" alt="Lien vers Instagram"></a>
+            <a href="https://linkedin.com" target="_blank"><img width="30px" src="imgV/linkedin.png" alt="Lien vers Linkedin"></a>
+        </div>
+    </div>
+    <div class="footer-droit">
+        <p>Contact</p>
+        <form action="#" method="POST">
+           <input type="email" placeholder="Email" name="email" required>
+           <textarea name="message" placeholder="Message" required 
+                maxlength="20" cols="50" rows="5" spellcheck="true" wrap="hard"></textarea>
+            <button class="but">Envoyer</button>
+        </form>
+    </div>
+</footer> 
+</body>
+</html>
