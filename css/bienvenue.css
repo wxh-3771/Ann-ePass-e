@@ -1,0 +1,73 @@
+/*pour la page de bienvenue*/
+body{
+    background-image:url("../imgV/backgrou.jpg");
+    background-size: cover;
+    margin:0 auto;
+    padding:0;
+    
+    
+}
+
+.navbar ul li
+{
+display: inline;
+
+}
+.navbar ul li a
+{
+ color:white ;
+ 	text-decoration: none;
+ padding: 15px;
+ font-size: 25px;
+ 
+}
+ul li a:hover
+{
+ color: #fff;
+ 	background-color: rgb(228, 85, 19) ;
+     border-radius: 20%;
+}
+.active{
+ 	  
+     color: white;
+}
+ 
+.navbar{
+    float:right;
+    margin-right:-10px;
+    margin-top: 60px;
+}
+
+
+header{
+	text-align:left;
+	padding:20px;
+	background-color:#555;
+	color:#888;
+	font:36pt arial;
+	border-bottom:solid 1px #888;
+}
+
+header a {
+    padding:14px;
+	background-color:#E60;
+	text-decoration:none;
+	color:#FFF;
+	vertical-align:middle;
+	margin-left:60px;
+	border-radius:6px;
+}
+header a:hover{
+	background-color:#F80;
+}
+h1{
+	font-size:36pt;
+	color:#AAA;
+	font-weight:normal;
+}
+h1 span{
+	font:inherit;
+	color:#F80;
+
+}
+
