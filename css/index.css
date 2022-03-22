@@ -1,0 +1,112 @@
+/*pour la page d'acceuil*/
+body{
+    background-image:url("../imgV/backgr.jpg");
+    background-size: cover;
+    margin:0 auto;
+    padding:0;
+    
+    
+}
+
+.container{
+    background-color: rgba(224, 157, 33, 0.952);
+    margin: 0;
+    padding:0;
+}
+.navbar ul li
+{
+display: inline;
+
+}
+.navbar ul li a
+{
+ color:white ;
+ 	text-decoration: none;
+ padding: 15px;
+ font-size: 25px;
+ 
+}
+ul li a:hover
+{
+ color: #fff;
+ 	background-color: rgb(228, 85, 19) ;
+     border-radius: 20%;
+}
+.active{
+ 	  
+     color: white;
+}
+ 
+.navbar{
+    float:right;
+    margin-right:-10px;
+    margin-top: 60px;
+}
+.logo{
+    margin-left: 20px;
+}
+.text1{
+    color:white;
+     margin-left: 100px;
+     font-size:80px;
+     
+     font-family: papyrus;
+}
+.text2{
+    color:rgb(212, 159, 13);
+     
+     font-size:40px;
+     text-align: center;
+     font-family: papyrus;
+}
+.showSlide {
+    display: none
+    }
+    .showSlide img {
+    width: 100%;
+    }
+     .slidercontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    width: auto;
+    padding: 16px;
+    margin-top: 90px;
+    color: dark;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    }
+    .next {
+    right: 0;
+    }
+    .prev{
+    left: 0;
+    }
+    .prev:hover, .next:hover {
+         background-color: gray;
+    }
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 8 0 8 0;
+       background-color: rgb(216, 118, 7);
+    border-radius: 50%;
+    display: inline-block;
+    }
+    .dot:hover{
+         background-color: rgb(206, 153, 7);
+    }
+    .textt{
+        color:white;
+        font-size:initial;
+        font-weight:lighter;
+        margin-left: 50px;
+    }
+

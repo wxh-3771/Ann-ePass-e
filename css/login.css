@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image:url(../imgV/backs.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+
+/* Menu de la page */
+header{
+   margin-left: -15%;
+    margin-top: -35%;
+    margin-right: 50px;
+}
+
+.navbar{
+    padding:14px;    
+}
+
+ul li  {
+ list-style: none;
+ padding-left: 15px;
+ padding:14px;
+ 
+
+} 
+
+li{
+    float: left; 
+    
+}
+
+
+ul{
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+ul li a{
+text-decoration: none;
+float: right;
+color: rgb(252, 252, 252);
+font-size: 2em;
+font-weight:bolder;
+padding: 20px;
+}
+
+/* Les boutons de la barre de menu */
+ul li a:hover{
+ color: rgb(255, 251, 0);
+ background-color: rgb(221, 83, 3);
+ border-radius:20%;
+}
+
+/*les formulaires*/
+.tout {
+    background: white;
+    padding: 30px 15px;
+    width: 450px;
+}
+
+.titre{
+    border-left: 5px solid #00a8ff;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+.champs {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #ccc;
+    background: transparent;
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    transition: 0.3s all ease;
+}
+
+.input:focus {
+    border-color: #00a8ff;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #00a8ff;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+    background-color: brown;
+}
+
+.btn:hover, .btn:focus {
+    background: transparent;
+    border-color: #00a8ff;
+    color: #00a8ff;
+}
+
+.form p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.form p a {
+    text-decoration: none;
+    color: #00a8ff;
+    transition: 0.3s all ease;
+}
+
+.form p a:focus, .form p a:hover {
+    color: #00a8ff;
+}

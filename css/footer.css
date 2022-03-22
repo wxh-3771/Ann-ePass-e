@@ -1,0 +1,129 @@
+.pieds-page{
+    background-color: rgb(58, 54, 54);
+    box-shadow: 0 1px 1px 0 black;
+    padding-left: 35px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 15px 15px;
+    margin-top: 3%;
+    
+}
+
+
+ /* le cote gauche */
+
+/* le texte */
+.footer-gauche h3{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding-top: 40px;
+    font-weight: normal;
+}
+
+.footer-gauche h3 span{
+    color: rgb(71, 71, 202);
+}
+
+/*  les liens de la barre de menu */
+.f-liens{
+    padding-right: 5px;
+    margin-top: -15px;
+    color: white;
+}
+
+.f-liens a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+/* un autre texte */
+.company-name{
+    color: rgb(155, 153, 153);
+    font-size: 15px;
+}
+
+/*  les icons des reseaux sociaux*/
+.f-icons{
+    margin-top: 50px;
+    
+}
+
+.f-icons img{
+    width: 30px;
+    height: 30px;
+}
+
+.f-icons a{
+    width: 40px;
+    display: inline-block;
+    height: 40px;
+    background-color: rgb(39, 36, 36);
+    text-align: center;
+	padding-top: 10px;
+    cursor: pointer;
+}
+/*fin pour le cote gauche*/
+
+
+/* le coté droit */
+.footer-droit{
+    text-align: right;
+    margin-right: 1%;
+
+}
+
+/* le texte du cote droit*/
+.footer-droit p{
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -19%;
+    margin-right: 55px;
+}
+
+/* le formulaire */
+form{
+    display: inline-block;
+    margin-top: -21%;
+}
+
+form input,
+form textarea{
+    display: block;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    box-shadow: 0 1px 0 0 rgb(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border: none;
+    font-size: 15px;
+    width: 450px; 
+    padding: 15px;
+    resize: none;
+    border-radius: 3px;
+}
+
+input{
+    height: 60px; 
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 120px; 
+    margin-bottom: 20px;
+}
+
+/* le bouton d'envoie */
+form button{
+    color: white;
+    background-color: rgb(34, 33, 33);
+    border: 0;
+    padding-top: 15px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}

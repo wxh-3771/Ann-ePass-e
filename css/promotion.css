@@ -1,0 +1,167 @@
+body{
+    
+     background-image:url("../imgV/imgfond1.png");
+    background-size: cover;
+    margin:0 auto;
+    padding:0;
+    
+}
+.header{
+    background-size: cover;
+}
+.container{
+    background-color: rgb(231, 181, 17);
+    
+    
+}
+
+
+ul li
+{
+display: inline;
+
+}
+ul li a
+{
+ color:rgb(255, 255, 255) ;
+ 	text-decoration: none;
+ padding: 15px;
+ font-size: 25px;
+ 
+}
+ul li a:hover
+{
+ color: rgb(248, 244, 244);
+ 	background-color: #333 ;
+     border-radius: 50%;
+}
+.active{
+ 	  
+     color: rgb(248, 245, 245);
+}
+ 
+.navbar{
+    float:right;
+    margin-right:20px;
+    margin-top: 30px;
+}
+.logo{
+    margin-left: 20px;
+    margin-top:10px;
+}
+.text1{
+    color:rgb(196, 19, 19);
+     margin-left: 100px;
+     font-size:80px;
+     
+     font-family: Arial;
+}
+.text2{
+    color:rgb(238, 135, 18);
+     
+     font-size:40px;
+     text-align: center;
+     font-family: papyrus;
+}
+.showSlide {
+    display: none
+    }
+    .showSlide img {
+    width: 100%;
+    }
+     .slidercontainer {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+    }
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 15%;
+    width: auto;
+    padding: 16px;
+    margin-top: 90px;
+    color: dark;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    }
+    .next {
+    right: 0;
+    }
+    .prev{
+    left: 0;
+    }
+    .prev:hover, .next:hover {
+         background-color: gray;
+    }
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 8 0 8 0;
+       background-color: rgb(216, 118, 7);
+    border-radius: 50%;
+    display: inline-block;
+    }
+    .dot:hover{
+         background-color: rgb(206, 153, 7);
+    }
+    .card{
+        margin: 20px;
+        height: 370px;
+        width: 250px;
+        position: relative;
+             background-color: #ffffff;
+        border-radius: 5px;
+        display: flex;
+             flex-direction: column;
+             justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .card a{
+             text-decoration: none;
+        text-align: center;
+        }
+        .photos{
+        height: 170px;
+        }
+        .photos img{
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+        }
+        .details{
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        font-size: 20px;
+        line-height: 35px;
+        }
+        .add{
+        position: absolute;
+        bottom: 0px;
+        height: 45px;
+             background-color: #fafafa;
+        width: 100%;
+        display: flex;
+             justify-content: center;
+        align-items: center;
+        }
+        .add button{
+        height: 40px;
+             background-color: rgb(228, 212, 91);
+        width: 100%;
+        }
+        .column{
+        display: table-cell;
+        }
+        
+    .row{
+        margin-left: 100px;
+
+    }  
+   
+    
